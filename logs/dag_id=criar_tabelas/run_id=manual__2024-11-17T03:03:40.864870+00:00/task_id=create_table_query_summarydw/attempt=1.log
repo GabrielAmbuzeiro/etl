@@ -1,0 +1,65 @@
+[2024-11-17T03:03:53.905+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-17T03:03:53.920+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: criar_tabelas.create_table_query_summarydw manual__2024-11-17T03:03:40.864870+00:00 [queued]>
+[2024-11-17T03:03:53.928+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: criar_tabelas.create_table_query_summarydw manual__2024-11-17T03:03:40.864870+00:00 [queued]>
+[2024-11-17T03:03:53.928+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2024-11-17T03:03:53.938+0000] {taskinstance.py:2889} INFO - Executing <Task(PostgresOperator): create_table_query_summarydw> on 2024-11-17 03:03:40.864870+00:00
+[2024-11-17T03:03:53.948+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=492) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-11-17T03:03:53.950+0000] {standard_task_runner.py:72} INFO - Started process 494 to run task
+[2024-11-17T03:03:53.951+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'criar_tabelas', 'create_table_query_summarydw', 'manual__2024-11-17T03:03:40.864870+00:00', '--job-id', '212', '--raw', '--subdir', 'DAGS_FOLDER/etl.py', '--cfg-path', '/tmp/tmpc1xeg2l_']
+[2024-11-17T03:03:53.952+0000] {standard_task_runner.py:105} INFO - Job 212: Subtask create_table_query_summarydw
+[2024-11-17T03:03:53.992+0000] {task_command.py:467} INFO - Running <TaskInstance: criar_tabelas.create_table_query_summarydw manual__2024-11-17T03:03:40.864870+00:00 [running]> on host bfeda1f9cf11
+[2024-11-17T03:03:54.266+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='criar_tabelas' AIRFLOW_CTX_TASK_ID='create_table_query_summarydw' AIRFLOW_CTX_EXECUTION_DATE='2024-11-17T03:03:40.864870+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-11-17T03:03:40.864870+00:00'
+[2024-11-17T03:03:54.268+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-11-17T03:03:54.268+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-11-17T03:03:54.268+0000] {logging_mixin.py:190} INFO - Current task name:create_table_query_summarydw state:running start_date:2024-11-17 03:03:53.920949+00:00
+[2024-11-17T03:03:54.268+0000] {logging_mixin.py:190} INFO - Dag name:criar_tabelas and current dag run status:running
+[2024-11-17T03:03:54.268+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-17T03:03:54.269+0000] {sql.py:278} INFO - Executing: 
+CREATE TABLE IF NOT EXISTS dw.SummaryProfile (
+    id INT PRIMARY KEY,
+    address1 VARCHAR(255),
+    address2 VARCHAR(255),
+    city VARCHAR(100),
+    state VARCHAR(2),
+    zip VARCHAR(10),
+    country VARCHAR(100),
+    website VARCHAR(255),
+    industry VARCHAR(100),
+    industryKey VARCHAR(50),
+    industryDisp VARCHAR(100),
+    sector VARCHAR(100),
+    sectorKey VARCHAR(50),
+    sectorDisp VARCHAR(100),
+    longBusinessSummary TEXT
+);
+[2024-11-17T03:03:54.276+0000] {base.py:84} INFO - Retrieving connection 'postgres-***'
+[2024-11-17T03:03:54.285+0000] {base.py:84} INFO - Retrieving connection 'postgres-***'
+[2024-11-17T03:03:54.290+0000] {sql.py:544} INFO - Running statement: 
+CREATE TABLE IF NOT EXISTS dw.SummaryProfile (
+    id INT PRIMARY KEY,
+    address1 VARCHAR(255),
+    address2 VARCHAR(255),
+    city VARCHAR(100),
+    state VARCHAR(2),
+    zip VARCHAR(10),
+    country VARCHAR(100),
+    website VARCHAR(255),
+    industry VARCHAR(100),
+    industryKey VARCHAR(50),
+    industryDisp VARCHAR(100),
+    sector VARCHAR(100),
+    sectorKey VARCHAR(50),
+    sectorDisp VARCHAR(100),
+    longBusinessSummary TEXT
+);, parameters: None
+[2024-11-17T03:03:54.300+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-17T03:03:54.300+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=criar_tabelas, task_id=create_table_query_summarydw, run_id=manual__2024-11-17T03:03:40.864870+00:00, execution_date=20241117T030340, start_date=20241117T030353, end_date=20241117T030354
+[2024-11-17T03:03:54.308+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2024-11-17T03:03:54.308+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2024-11-17T03:03:54.308+0000] {logging_mixin.py:190} INFO - Dag name:criar_tabelas queued_at:2024-11-17 03:03:40.872050+00:00
+[2024-11-17T03:03:54.308+0000] {logging_mixin.py:190} INFO - Task hostname:bfeda1f9cf11 operator:PostgresOperator
+[2024-11-17T03:03:54.365+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-11-17T03:03:54.390+0000] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-11-17T03:03:54.391+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

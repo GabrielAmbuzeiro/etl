@@ -1,0 +1,113 @@
+[2024-11-12T00:25:07.262+0000] {processor.py:186} INFO - Started process (PID=85) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_datasets.py
+[2024-11-12T00:25:07.263+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_datasets.py for tasks to queue
+[2024-11-12T00:25:07.265+0000] {logging_mixin.py:190} INFO - [2024-11-12T00:25:07.265+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_datasets.py
+[2024-11-12T00:25:09.106+0000] {logging_mixin.py:190} INFO - [2024-11-12T00:25:09.106+0000] {process_utils.py:266} INFO - Waiting up to 5 seconds for processes to exit...
+[2024-11-12T00:25:09.107+0000] {logging_mixin.py:190} WARNING - Exception ignored in: <function WeakKeyDictionary.__init__.<locals>.remove at 0x76b13a8a7a60>
+[2024-11-12T00:25:09.107+0000] {logging_mixin.py:190} WARNING - Traceback (most recent call last):
+[2024-11-12T00:25:09.107+0000] {logging_mixin.py:190} WARNING -   File "/usr/local/lib/python3.12/weakref.py", line 369, in remove
+[2024-11-12T00:25:09.108+0000] {logging_mixin.py:190} WARNING -     def remove(k, selfref=ref(self)):
+[2024-11-12T00:25:09.108+0000] {logging_mixin.py:190} WARNING -   File "/home/airflow/.local/lib/python3.12/site-packages/airflow/dag_processing/manager.py", line 466, in _exit_gracefully
+[2024-11-12T00:25:09.108+0000] {logging_mixin.py:190} WARNING -     self.log.debug("Current Stacktrace is: %s", "\n".join(map(str, inspect.stack())))
+[2024-11-12T00:25:09.108+0000] {logging_mixin.py:190} WARNING -                                                                    ^^^^^^^^^^^^^^^
+[2024-11-12T00:25:09.108+0000] {logging_mixin.py:190} WARNING -   File "/usr/local/lib/python3.12/inspect.py", line 1777, in stack
+[2024-11-12T00:25:09.109+0000] {logging_mixin.py:190} WARNING -     return getouterframes(sys._getframe(1), context)
+[2024-11-12T00:25:09.109+0000] {logging_mixin.py:190} WARNING -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-11-12T00:25:09.109+0000] {logging_mixin.py:190} WARNING -   File "/usr/local/lib/python3.12/inspect.py", line 1752, in getouterframes
+[2024-11-12T00:25:09.110+0000] {logging_mixin.py:190} WARNING -     traceback_info = getframeinfo(frame, context)
+[2024-11-12T00:25:09.110+0000] {logging_mixin.py:190} WARNING -                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-11-12T00:25:09.110+0000] {logging_mixin.py:190} WARNING -   File "/usr/local/lib/python3.12/inspect.py", line 1714, in getframeinfo
+[2024-11-12T00:25:09.110+0000] {logging_mixin.py:190} WARNING -     lines, lnum = findsource(frame)
+[2024-11-12T00:25:09.110+0000] {logging_mixin.py:190} WARNING -                   ^^^^^^^^^^^^^^^^^
+[2024-11-12T00:25:09.110+0000] {logging_mixin.py:190} WARNING -   File "/usr/local/lib/python3.12/inspect.py", line 1090, in findsource
+[2024-11-12T00:25:09.111+0000] {logging_mixin.py:190} WARNING -     module = getmodule(object, file)
+[2024-11-12T00:25:09.111+0000] {logging_mixin.py:190} WARNING -              ^^^^^^^^^^^^^^^^^^^^^^^
+[2024-11-12T00:25:09.111+0000] {logging_mixin.py:190} WARNING -   File "/usr/local/lib/python3.12/inspect.py", line 1016, in getmodule
+[2024-11-12T00:25:09.111+0000] {logging_mixin.py:190} WARNING -     os.path.realpath(f)] = module.__name__
+[2024-11-12T00:25:09.111+0000] {logging_mixin.py:190} WARNING -     ^^^^^^^^^^^^^^^^^^^
+[2024-11-12T00:25:09.112+0000] {logging_mixin.py:190} WARNING -   File "<frozen posixpath>", line 427, in realpath
+[2024-11-12T00:25:09.112+0000] {logging_mixin.py:190} WARNING -   File "<frozen posixpath>", line 462, in _joinrealpath
+[2024-11-12T00:25:09.112+0000] {logging_mixin.py:190} WARNING -   File "/home/airflow/.local/lib/python3.12/site-packages/airflow/dag_processing/manager.py", line 466, in _exit_gracefully
+[2024-11-12T00:25:09.112+0000] {logging_mixin.py:190} WARNING -     self.log.debug("Current Stacktrace is: %s", "\n".join(map(str, inspect.stack())))
+[2024-11-12T00:25:09.112+0000] {logging_mixin.py:190} WARNING -                                                                    ^^^^^^^^^^^^^^^
+[2024-11-12T00:25:09.112+0000] {logging_mixin.py:190} WARNING -   File "/usr/local/lib/python3.12/inspect.py", line 1777, in stack
+[2024-11-12T00:25:09.113+0000] {logging_mixin.py:190} WARNING -     return getouterframes(sys._getframe(1), context)
+[2024-11-12T00:25:09.113+0000] {logging_mixin.py:190} WARNING -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-11-12T00:25:09.113+0000] {logging_mixin.py:190} WARNING -   File "/usr/local/lib/python3.12/inspect.py", line 1752, in getouterframes
+[2024-11-12T00:25:09.113+0000] {logging_mixin.py:190} WARNING -     traceback_info = getframeinfo(frame, context)
+[2024-11-12T00:25:09.114+0000] {logging_mixin.py:190} WARNING -                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-11-12T00:25:09.114+0000] {logging_mixin.py:190} WARNING -   File "/usr/local/lib/python3.12/inspect.py", line 1714, in getframeinfo
+[2024-11-12T00:25:09.114+0000] {logging_mixin.py:190} WARNING -     lines, lnum = findsource(frame)
+[2024-11-12T00:25:09.114+0000] {logging_mixin.py:190} WARNING -                   ^^^^^^^^^^^^^^^^^
+[2024-11-12T00:25:09.114+0000] {logging_mixin.py:190} WARNING -   File "/usr/local/lib/python3.12/inspect.py", line 1078, in findsource
+[2024-11-12T00:25:09.115+0000] {logging_mixin.py:190} WARNING -     file = getsourcefile(object)
+[2024-11-12T00:25:09.115+0000] {logging_mixin.py:190} WARNING -            ^^^^^^^^^^^^^^^^^^^^^
+[2024-11-12T00:25:09.115+0000] {logging_mixin.py:190} WARNING -   File "/usr/local/lib/python3.12/inspect.py", line 970, in getsourcefile
+[2024-11-12T00:25:09.115+0000] {logging_mixin.py:190} WARNING -     module = getmodule(object, filename)
+[2024-11-12T00:25:09.115+0000] {logging_mixin.py:190} WARNING -              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-11-12T00:25:09.116+0000] {logging_mixin.py:190} WARNING -   File "/usr/local/lib/python3.12/inspect.py", line 1007, in getmodule
+[2024-11-12T00:25:09.116+0000] {logging_mixin.py:190} WARNING -     if ismodule(module) and hasattr(module, '__file__'):
+[2024-11-12T00:25:09.116+0000] {logging_mixin.py:190} WARNING -                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-11-12T00:25:09.116+0000] {logging_mixin.py:190} WARNING -   File "/home/airflow/.local/lib/python3.12/site-packages/airflow/dag_processing/manager.py", line 470, in _exit_gracefully
+[2024-11-12T00:25:09.117+0000] {logging_mixin.py:190} WARNING -     sys.exit(os.EX_OK)
+[2024-11-12T00:25:09.117+0000] {logging_mixin.py:190} WARNING - SystemExit: 0
+[2024-11-12T00:25:09.215+0000] {processor.py:925} INFO - DAG(s) 'dataset_consumes_unknown_never_scheduled', 'consume_1_or_2_with_dataset_expressions', 'dataset_consumes_1_never_scheduled', 'conditional_dataset_and_time_based_timetable', 'dataset_consumes_1', 'consume_1_and_2_with_dataset_expressions', 'consume_1_or_both_2_and_3_with_dataset_expressions', 'dataset_consumes_1_and_2', 'dataset_produces_1', 'dataset_produces_2' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_datasets.py
+[2024-11-12T00:25:09.258+0000] {logging_mixin.py:190} INFO - [2024-11-12T00:25:09.258+0000] {dag.py:3239} INFO - Sync 10 DAGs
+[2024-11-12T00:25:09.279+0000] {logging_mixin.py:190} INFO - [2024-11-12T00:25:09.279+0000] {dag.py:4180} INFO - Setting next_dagrun for conditional_dataset_and_time_based_timetable to 2024-11-06 01:00:00+00:00, run_after=2024-11-06 01:00:00+00:00
+[2024-11-12T00:25:09.284+0000] {logging_mixin.py:190} INFO - [2024-11-12T00:25:09.284+0000] {dag.py:4180} INFO - Setting next_dagrun for consume_1_and_2_with_dataset_expressions to None, run_after=None
+[2024-11-12T00:25:09.286+0000] {logging_mixin.py:190} INFO - [2024-11-12T00:25:09.286+0000] {dag.py:4180} INFO - Setting next_dagrun for consume_1_or_2_with_dataset_expressions to None, run_after=None
+[2024-11-12T00:25:09.287+0000] {logging_mixin.py:190} INFO - [2024-11-12T00:25:09.287+0000] {dag.py:4180} INFO - Setting next_dagrun for consume_1_or_both_2_and_3_with_dataset_expressions to None, run_after=None
+[2024-11-12T00:25:09.289+0000] {logging_mixin.py:190} INFO - [2024-11-12T00:25:09.288+0000] {dag.py:4180} INFO - Setting next_dagrun for dataset_consumes_1 to None, run_after=None
+[2024-11-12T00:25:09.291+0000] {logging_mixin.py:190} INFO - [2024-11-12T00:25:09.290+0000] {dag.py:4180} INFO - Setting next_dagrun for dataset_consumes_1_and_2 to None, run_after=None
+[2024-11-12T00:25:09.293+0000] {logging_mixin.py:190} INFO - [2024-11-12T00:25:09.292+0000] {dag.py:4180} INFO - Setting next_dagrun for dataset_consumes_1_never_scheduled to None, run_after=None
+[2024-11-12T00:25:09.294+0000] {logging_mixin.py:190} INFO - [2024-11-12T00:25:09.294+0000] {dag.py:4180} INFO - Setting next_dagrun for dataset_consumes_unknown_never_scheduled to None, run_after=None
+[2024-11-12T00:25:09.297+0000] {logging_mixin.py:190} INFO - [2024-11-12T00:25:09.297+0000] {dag.py:4180} INFO - Setting next_dagrun for dataset_produces_1 to 2024-11-11 00:00:00+00:00, run_after=2024-11-12 00:00:00+00:00
+[2024-11-12T00:25:09.300+0000] {logging_mixin.py:190} INFO - [2024-11-12T00:25:09.300+0000] {dag.py:4180} INFO - Setting next_dagrun for dataset_produces_2 to None, run_after=None
+[2024-11-12T00:25:09.341+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_datasets.py took 2.084 seconds
+[2024-11-12T00:25:30.786+0000] {processor.py:186} INFO - Started process (PID=79) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_datasets.py
+[2024-11-12T00:25:30.786+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_datasets.py for tasks to queue
+[2024-11-12T00:25:30.789+0000] {logging_mixin.py:190} INFO - [2024-11-12T00:25:30.788+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_datasets.py
+[2024-11-12T00:25:31.378+0000] {processor.py:925} INFO - DAG(s) 'dataset_consumes_unknown_never_scheduled', 'dataset_produces_1', 'consume_1_or_both_2_and_3_with_dataset_expressions', 'dataset_consumes_1_never_scheduled', 'conditional_dataset_and_time_based_timetable', 'consume_1_or_2_with_dataset_expressions', 'dataset_consumes_1_and_2', 'dataset_produces_2', 'consume_1_and_2_with_dataset_expressions', 'dataset_consumes_1' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_datasets.py
+[2024-11-12T00:25:31.418+0000] {logging_mixin.py:190} INFO - [2024-11-12T00:25:31.418+0000] {dag.py:3239} INFO - Sync 10 DAGs
+[2024-11-12T00:25:31.441+0000] {logging_mixin.py:190} INFO - [2024-11-12T00:25:31.440+0000] {dag.py:4180} INFO - Setting next_dagrun for conditional_dataset_and_time_based_timetable to 2024-11-06 01:00:00+00:00, run_after=2024-11-06 01:00:00+00:00
+[2024-11-12T00:25:31.444+0000] {logging_mixin.py:190} INFO - [2024-11-12T00:25:31.444+0000] {dag.py:4180} INFO - Setting next_dagrun for consume_1_and_2_with_dataset_expressions to None, run_after=None
+[2024-11-12T00:25:31.445+0000] {logging_mixin.py:190} INFO - [2024-11-12T00:25:31.445+0000] {dag.py:4180} INFO - Setting next_dagrun for consume_1_or_2_with_dataset_expressions to None, run_after=None
+[2024-11-12T00:25:31.447+0000] {logging_mixin.py:190} INFO - [2024-11-12T00:25:31.446+0000] {dag.py:4180} INFO - Setting next_dagrun for consume_1_or_both_2_and_3_with_dataset_expressions to None, run_after=None
+[2024-11-12T00:25:31.448+0000] {logging_mixin.py:190} INFO - [2024-11-12T00:25:31.448+0000] {dag.py:4180} INFO - Setting next_dagrun for dataset_consumes_1 to None, run_after=None
+[2024-11-12T00:25:31.449+0000] {logging_mixin.py:190} INFO - [2024-11-12T00:25:31.449+0000] {dag.py:4180} INFO - Setting next_dagrun for dataset_consumes_1_and_2 to None, run_after=None
+[2024-11-12T00:25:31.450+0000] {logging_mixin.py:190} INFO - [2024-11-12T00:25:31.450+0000] {dag.py:4180} INFO - Setting next_dagrun for dataset_consumes_1_never_scheduled to None, run_after=None
+[2024-11-12T00:25:31.451+0000] {logging_mixin.py:190} INFO - [2024-11-12T00:25:31.451+0000] {dag.py:4180} INFO - Setting next_dagrun for dataset_consumes_unknown_never_scheduled to None, run_after=None
+[2024-11-12T00:25:31.453+0000] {logging_mixin.py:190} INFO - [2024-11-12T00:25:31.453+0000] {dag.py:4180} INFO - Setting next_dagrun for dataset_produces_1 to 2024-11-11 00:00:00+00:00, run_after=2024-11-12 00:00:00+00:00
+[2024-11-12T00:25:31.454+0000] {logging_mixin.py:190} INFO - [2024-11-12T00:25:31.454+0000] {dag.py:4180} INFO - Setting next_dagrun for dataset_produces_2 to None, run_after=None
+[2024-11-12T00:25:31.489+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_datasets.py took 0.709 seconds
+[2024-11-12T00:26:02.484+0000] {processor.py:186} INFO - Started process (PID=144) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_datasets.py
+[2024-11-12T00:26:02.485+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_datasets.py for tasks to queue
+[2024-11-12T00:26:02.486+0000] {logging_mixin.py:190} INFO - [2024-11-12T00:26:02.486+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_datasets.py
+[2024-11-12T00:26:03.095+0000] {processor.py:925} INFO - DAG(s) 'consume_1_or_2_with_dataset_expressions', 'conditional_dataset_and_time_based_timetable', 'dataset_produces_2', 'dataset_consumes_1', 'dataset_consumes_unknown_never_scheduled', 'dataset_consumes_1_never_scheduled', 'dataset_produces_1', 'consume_1_and_2_with_dataset_expressions', 'dataset_consumes_1_and_2', 'consume_1_or_both_2_and_3_with_dataset_expressions' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_datasets.py
+[2024-11-12T00:26:03.137+0000] {logging_mixin.py:190} INFO - [2024-11-12T00:26:03.137+0000] {dag.py:3239} INFO - Sync 10 DAGs
+[2024-11-12T00:26:03.162+0000] {logging_mixin.py:190} INFO - [2024-11-12T00:26:03.161+0000] {dag.py:4180} INFO - Setting next_dagrun for conditional_dataset_and_time_based_timetable to 2024-11-06 01:00:00+00:00, run_after=2024-11-06 01:00:00+00:00
+[2024-11-12T00:26:03.165+0000] {logging_mixin.py:190} INFO - [2024-11-12T00:26:03.165+0000] {dag.py:4180} INFO - Setting next_dagrun for consume_1_and_2_with_dataset_expressions to None, run_after=None
+[2024-11-12T00:26:03.166+0000] {logging_mixin.py:190} INFO - [2024-11-12T00:26:03.166+0000] {dag.py:4180} INFO - Setting next_dagrun for consume_1_or_2_with_dataset_expressions to None, run_after=None
+[2024-11-12T00:26:03.167+0000] {logging_mixin.py:190} INFO - [2024-11-12T00:26:03.167+0000] {dag.py:4180} INFO - Setting next_dagrun for consume_1_or_both_2_and_3_with_dataset_expressions to None, run_after=None
+[2024-11-12T00:26:03.169+0000] {logging_mixin.py:190} INFO - [2024-11-12T00:26:03.168+0000] {dag.py:4180} INFO - Setting next_dagrun for dataset_consumes_1 to None, run_after=None
+[2024-11-12T00:26:03.170+0000] {logging_mixin.py:190} INFO - [2024-11-12T00:26:03.170+0000] {dag.py:4180} INFO - Setting next_dagrun for dataset_consumes_1_and_2 to None, run_after=None
+[2024-11-12T00:26:03.171+0000] {logging_mixin.py:190} INFO - [2024-11-12T00:26:03.171+0000] {dag.py:4180} INFO - Setting next_dagrun for dataset_consumes_1_never_scheduled to None, run_after=None
+[2024-11-12T00:26:03.172+0000] {logging_mixin.py:190} INFO - [2024-11-12T00:26:03.172+0000] {dag.py:4180} INFO - Setting next_dagrun for dataset_consumes_unknown_never_scheduled to None, run_after=None
+[2024-11-12T00:26:03.175+0000] {logging_mixin.py:190} INFO - [2024-11-12T00:26:03.174+0000] {dag.py:4180} INFO - Setting next_dagrun for dataset_produces_1 to 2024-11-11 00:00:00+00:00, run_after=2024-11-12 00:00:00+00:00
+[2024-11-12T00:26:03.176+0000] {logging_mixin.py:190} INFO - [2024-11-12T00:26:03.176+0000] {dag.py:4180} INFO - Setting next_dagrun for dataset_produces_2 to None, run_after=None
+[2024-11-12T00:26:03.202+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_datasets.py took 0.723 seconds
+[2024-11-12T00:26:34.074+0000] {processor.py:186} INFO - Started process (PID=208) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_datasets.py
+[2024-11-12T00:26:34.075+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_datasets.py for tasks to queue
+[2024-11-12T00:26:34.077+0000] {logging_mixin.py:190} INFO - [2024-11-12T00:26:34.077+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_datasets.py
+[2024-11-12T00:26:34.719+0000] {processor.py:925} INFO - DAG(s) 'consume_1_or_2_with_dataset_expressions', 'dataset_consumes_1', 'dataset_produces_2', 'dataset_consumes_unknown_never_scheduled', 'dataset_consumes_1_and_2', 'consume_1_and_2_with_dataset_expressions', 'conditional_dataset_and_time_based_timetable', 'consume_1_or_both_2_and_3_with_dataset_expressions', 'dataset_produces_1', 'dataset_consumes_1_never_scheduled' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_datasets.py
+[2024-11-12T00:26:34.761+0000] {logging_mixin.py:190} INFO - [2024-11-12T00:26:34.761+0000] {dag.py:3239} INFO - Sync 10 DAGs
+[2024-11-12T00:26:34.783+0000] {logging_mixin.py:190} INFO - [2024-11-12T00:26:34.783+0000] {dag.py:4180} INFO - Setting next_dagrun for conditional_dataset_and_time_based_timetable to 2024-11-06 01:00:00+00:00, run_after=2024-11-06 01:00:00+00:00
+[2024-11-12T00:26:34.786+0000] {logging_mixin.py:190} INFO - [2024-11-12T00:26:34.786+0000] {dag.py:4180} INFO - Setting next_dagrun for consume_1_and_2_with_dataset_expressions to None, run_after=None
+[2024-11-12T00:26:34.788+0000] {logging_mixin.py:190} INFO - [2024-11-12T00:26:34.787+0000] {dag.py:4180} INFO - Setting next_dagrun for consume_1_or_2_with_dataset_expressions to None, run_after=None
+[2024-11-12T00:26:34.789+0000] {logging_mixin.py:190} INFO - [2024-11-12T00:26:34.788+0000] {dag.py:4180} INFO - Setting next_dagrun for consume_1_or_both_2_and_3_with_dataset_expressions to None, run_after=None
+[2024-11-12T00:26:34.790+0000] {logging_mixin.py:190} INFO - [2024-11-12T00:26:34.790+0000] {dag.py:4180} INFO - Setting next_dagrun for dataset_consumes_1 to None, run_after=None
+[2024-11-12T00:26:34.791+0000] {logging_mixin.py:190} INFO - [2024-11-12T00:26:34.791+0000] {dag.py:4180} INFO - Setting next_dagrun for dataset_consumes_1_and_2 to None, run_after=None
+[2024-11-12T00:26:34.792+0000] {logging_mixin.py:190} INFO - [2024-11-12T00:26:34.792+0000] {dag.py:4180} INFO - Setting next_dagrun for dataset_consumes_1_never_scheduled to None, run_after=None
+[2024-11-12T00:26:34.793+0000] {logging_mixin.py:190} INFO - [2024-11-12T00:26:34.793+0000] {dag.py:4180} INFO - Setting next_dagrun for dataset_consumes_unknown_never_scheduled to None, run_after=None
+[2024-11-12T00:26:34.795+0000] {logging_mixin.py:190} INFO - [2024-11-12T00:26:34.795+0000] {dag.py:4180} INFO - Setting next_dagrun for dataset_produces_1 to 2024-11-11 00:00:00+00:00, run_after=2024-11-12 00:00:00+00:00
+[2024-11-12T00:26:34.796+0000] {logging_mixin.py:190} INFO - [2024-11-12T00:26:34.796+0000] {dag.py:4180} INFO - Setting next_dagrun for dataset_produces_2 to None, run_after=None
+[2024-11-12T00:26:34.823+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_datasets.py took 0.755 seconds

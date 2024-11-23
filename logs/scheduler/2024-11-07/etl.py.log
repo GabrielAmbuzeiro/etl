@@ -1,0 +1,162 @@
+[2024-11-07T00:43:37.297+0000] {processor.py:186} INFO - Started process (PID=673) to work on /opt/airflow/dags/etl.py
+[2024-11-07T00:43:37.297+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-07T00:43:37.299+0000] {logging_mixin.py:190} INFO - [2024-11-07T00:43:37.299+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-07T00:43:37.611+0000] {processor.py:925} INFO - DAG(s) 'api_inserir_dadosH' retrieved from /opt/airflow/dags/etl.py
+[2024-11-07T00:43:37.691+0000] {logging_mixin.py:190} INFO - [2024-11-07T00:43:37.691+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG:api_inserir_dadosH
+[2024-11-07T00:43:37.699+0000] {logging_mixin.py:190} INFO - [2024-11-07T00:43:37.699+0000] {override.py:1911} INFO - Created Permission View: can read on DAG:api_inserir_dadosH
+[2024-11-07T00:43:37.703+0000] {logging_mixin.py:190} INFO - [2024-11-07T00:43:37.703+0000] {override.py:1911} INFO - Created Permission View: can edit on DAG:api_inserir_dadosH
+[2024-11-07T00:43:37.708+0000] {logging_mixin.py:190} INFO - [2024-11-07T00:43:37.708+0000] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:api_inserir_dadosH
+[2024-11-07T00:43:37.713+0000] {logging_mixin.py:190} INFO - [2024-11-07T00:43:37.712+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:api_inserir_dadosH
+[2024-11-07T00:43:37.718+0000] {logging_mixin.py:190} INFO - [2024-11-07T00:43:37.717+0000] {override.py:1911} INFO - Created Permission View: can read on DAG Run:api_inserir_dadosH
+[2024-11-07T00:43:37.722+0000] {logging_mixin.py:190} INFO - [2024-11-07T00:43:37.722+0000] {override.py:1911} INFO - Created Permission View: can create on DAG Run:api_inserir_dadosH
+[2024-11-07T00:43:37.723+0000] {logging_mixin.py:190} INFO - [2024-11-07T00:43:37.722+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T00:43:37.732+0000] {logging_mixin.py:190} INFO - [2024-11-07T00:43:37.732+0000] {dag.py:3262} INFO - Creating ORM DAG for api_inserir_dadosH
+[2024-11-07T00:43:37.742+0000] {logging_mixin.py:190} INFO - [2024-11-07T00:43:37.741+0000] {dag.py:4180} INFO - Setting next_dagrun for api_inserir_dadosH to 2024-11-06 00:00:00+00:00, run_after=2024-11-07 00:00:00+00:00
+[2024-11-07T00:43:37.757+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.465 seconds
+[2024-11-07T00:44:08.088+0000] {processor.py:186} INFO - Started process (PID=737) to work on /opt/airflow/dags/etl.py
+[2024-11-07T00:44:08.088+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-07T00:44:08.090+0000] {logging_mixin.py:190} INFO - [2024-11-07T00:44:08.090+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-07T00:44:08.187+0000] {processor.py:925} INFO - DAG(s) 'api_inserir_dadosH' retrieved from /opt/airflow/dags/etl.py
+[2024-11-07T00:44:08.202+0000] {logging_mixin.py:190} INFO - [2024-11-07T00:44:08.202+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T00:44:08.222+0000] {logging_mixin.py:190} INFO - [2024-11-07T00:44:08.222+0000] {dag.py:4180} INFO - Setting next_dagrun for api_inserir_dadosH to 2024-11-06 00:00:00+00:00, run_after=2024-11-07 00:00:00+00:00
+[2024-11-07T00:44:08.247+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.163 seconds
+[2024-11-07T00:44:38.314+0000] {processor.py:186} INFO - Started process (PID=801) to work on /opt/airflow/dags/etl.py
+[2024-11-07T00:44:38.325+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-07T00:44:38.327+0000] {logging_mixin.py:190} INFO - [2024-11-07T00:44:38.327+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-07T00:44:38.423+0000] {processor.py:925} INFO - DAG(s) 'api_inserir_dadosH' retrieved from /opt/airflow/dags/etl.py
+[2024-11-07T00:44:38.440+0000] {logging_mixin.py:190} INFO - [2024-11-07T00:44:38.439+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T00:44:38.458+0000] {logging_mixin.py:190} INFO - [2024-11-07T00:44:38.458+0000] {dag.py:4180} INFO - Setting next_dagrun for api_inserir_dadosH to 2024-11-06 00:00:00+00:00, run_after=2024-11-07 00:00:00+00:00
+[2024-11-07T00:44:38.484+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.175 seconds
+[2024-11-07T00:45:08.710+0000] {processor.py:186} INFO - Started process (PID=865) to work on /opt/airflow/dags/etl.py
+[2024-11-07T00:45:08.721+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-07T00:45:08.723+0000] {logging_mixin.py:190} INFO - [2024-11-07T00:45:08.723+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-07T00:45:08.820+0000] {processor.py:925} INFO - DAG(s) 'api_inserir_dadosH' retrieved from /opt/airflow/dags/etl.py
+[2024-11-07T00:45:08.836+0000] {logging_mixin.py:190} INFO - [2024-11-07T00:45:08.836+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T00:45:08.856+0000] {logging_mixin.py:190} INFO - [2024-11-07T00:45:08.856+0000] {dag.py:4180} INFO - Setting next_dagrun for api_inserir_dadosH to 2024-11-06 00:00:00+00:00, run_after=2024-11-07 00:00:00+00:00
+[2024-11-07T00:45:08.882+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.177 seconds
+[2024-11-07T00:45:39.066+0000] {processor.py:186} INFO - Started process (PID=929) to work on /opt/airflow/dags/etl.py
+[2024-11-07T00:45:39.077+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-07T00:45:39.079+0000] {logging_mixin.py:190} INFO - [2024-11-07T00:45:39.079+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-07T00:45:39.177+0000] {processor.py:925} INFO - DAG(s) 'api_inserir_dadosH' retrieved from /opt/airflow/dags/etl.py
+[2024-11-07T00:45:39.192+0000] {logging_mixin.py:190} INFO - [2024-11-07T00:45:39.192+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T00:45:39.212+0000] {logging_mixin.py:190} INFO - [2024-11-07T00:45:39.211+0000] {dag.py:4180} INFO - Setting next_dagrun for api_inserir_dadosH to 2024-11-06 00:00:00+00:00, run_after=2024-11-07 00:00:00+00:00
+[2024-11-07T00:45:39.238+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.177 seconds
+[2024-11-07T00:46:09.315+0000] {processor.py:186} INFO - Started process (PID=993) to work on /opt/airflow/dags/etl.py
+[2024-11-07T00:46:09.327+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-07T00:46:09.329+0000] {logging_mixin.py:190} INFO - [2024-11-07T00:46:09.329+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-07T00:46:09.427+0000] {processor.py:925} INFO - DAG(s) 'api_inserir_dadosH' retrieved from /opt/airflow/dags/etl.py
+[2024-11-07T00:46:09.444+0000] {logging_mixin.py:190} INFO - [2024-11-07T00:46:09.444+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T00:46:09.464+0000] {logging_mixin.py:190} INFO - [2024-11-07T00:46:09.463+0000] {dag.py:4180} INFO - Setting next_dagrun for api_inserir_dadosH to 2024-11-06 00:00:00+00:00, run_after=2024-11-07 00:00:00+00:00
+[2024-11-07T00:46:09.489+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.179 seconds
+[2024-11-07T00:46:39.929+0000] {processor.py:186} INFO - Started process (PID=1057) to work on /opt/airflow/dags/etl.py
+[2024-11-07T00:46:39.940+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-07T00:46:39.943+0000] {logging_mixin.py:190} INFO - [2024-11-07T00:46:39.943+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-07T00:46:40.040+0000] {processor.py:925} INFO - DAG(s) 'api_inserir_dadosH' retrieved from /opt/airflow/dags/etl.py
+[2024-11-07T00:46:40.057+0000] {logging_mixin.py:190} INFO - [2024-11-07T00:46:40.056+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T00:46:40.076+0000] {logging_mixin.py:190} INFO - [2024-11-07T00:46:40.075+0000] {dag.py:4180} INFO - Setting next_dagrun for api_inserir_dadosH to 2024-11-06 00:00:00+00:00, run_after=2024-11-07 00:00:00+00:00
+[2024-11-07T00:46:40.102+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.178 seconds
+[2024-11-07T00:47:10.189+0000] {processor.py:186} INFO - Started process (PID=1121) to work on /opt/airflow/dags/etl.py
+[2024-11-07T00:47:10.200+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-07T00:47:10.202+0000] {logging_mixin.py:190} INFO - [2024-11-07T00:47:10.202+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-07T00:47:10.300+0000] {processor.py:925} INFO - DAG(s) 'api_inserir_dadosH' retrieved from /opt/airflow/dags/etl.py
+[2024-11-07T00:47:10.317+0000] {logging_mixin.py:190} INFO - [2024-11-07T00:47:10.316+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T00:47:10.338+0000] {logging_mixin.py:190} INFO - [2024-11-07T00:47:10.337+0000] {dag.py:4180} INFO - Setting next_dagrun for api_inserir_dadosH to 2024-11-06 00:00:00+00:00, run_after=2024-11-07 00:00:00+00:00
+[2024-11-07T00:47:10.362+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.178 seconds
+[2024-11-07T00:47:40.429+0000] {processor.py:186} INFO - Started process (PID=1185) to work on /opt/airflow/dags/etl.py
+[2024-11-07T00:47:40.440+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-07T00:47:40.442+0000] {logging_mixin.py:190} INFO - [2024-11-07T00:47:40.441+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-07T00:47:40.540+0000] {processor.py:925} INFO - DAG(s) 'api_inserir_dadosH' retrieved from /opt/airflow/dags/etl.py
+[2024-11-07T00:47:40.555+0000] {logging_mixin.py:190} INFO - [2024-11-07T00:47:40.555+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T00:47:40.577+0000] {logging_mixin.py:190} INFO - [2024-11-07T00:47:40.576+0000] {dag.py:4180} INFO - Setting next_dagrun for api_inserir_dadosH to 2024-11-06 00:00:00+00:00, run_after=2024-11-07 00:00:00+00:00
+[2024-11-07T00:47:40.602+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.178 seconds
+[2024-11-07T00:55:06.135+0000] {processor.py:186} INFO - Started process (PID=1219) to work on /opt/airflow/dags/etl.py
+[2024-11-07T00:55:06.136+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-07T00:55:06.139+0000] {logging_mixin.py:190} INFO - [2024-11-07T00:55:06.139+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-07T00:55:06.268+0000] {processor.py:925} INFO - DAG(s) 'api_inserir_dadosH' retrieved from /opt/airflow/dags/etl.py
+[2024-11-07T00:55:06.286+0000] {logging_mixin.py:190} INFO - [2024-11-07T00:55:06.286+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T00:55:06.305+0000] {logging_mixin.py:190} INFO - [2024-11-07T00:55:06.305+0000] {dag.py:4180} INFO - Setting next_dagrun for api_inserir_dadosH to 2024-11-06 00:00:00+00:00, run_after=2024-11-07 00:00:00+00:00
+[2024-11-07T00:55:06.324+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.196 seconds
+[2024-11-07T00:55:36.366+0000] {processor.py:186} INFO - Started process (PID=1283) to work on /opt/airflow/dags/etl.py
+[2024-11-07T00:55:36.367+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-07T00:55:36.369+0000] {logging_mixin.py:190} INFO - [2024-11-07T00:55:36.369+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-07T00:55:36.467+0000] {processor.py:925} INFO - DAG(s) 'api_inserir_dadosH' retrieved from /opt/airflow/dags/etl.py
+[2024-11-07T00:55:36.481+0000] {logging_mixin.py:190} INFO - [2024-11-07T00:55:36.481+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T00:55:36.501+0000] {logging_mixin.py:190} INFO - [2024-11-07T00:55:36.501+0000] {dag.py:4180} INFO - Setting next_dagrun for api_inserir_dadosH to 2024-11-06 00:00:00+00:00, run_after=2024-11-07 00:00:00+00:00
+[2024-11-07T00:55:36.515+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.153 seconds
+[2024-11-07T00:56:07.468+0000] {processor.py:186} INFO - Started process (PID=1348) to work on /opt/airflow/dags/etl.py
+[2024-11-07T00:56:07.479+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-07T00:56:07.481+0000] {logging_mixin.py:190} INFO - [2024-11-07T00:56:07.480+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-07T00:56:07.578+0000] {processor.py:925} INFO - DAG(s) 'api_inserir_dadosH' retrieved from /opt/airflow/dags/etl.py
+[2024-11-07T00:56:07.592+0000] {logging_mixin.py:190} INFO - [2024-11-07T00:56:07.592+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T00:56:07.612+0000] {logging_mixin.py:190} INFO - [2024-11-07T00:56:07.612+0000] {dag.py:4180} INFO - Setting next_dagrun for api_inserir_dadosH to 2024-11-06 00:00:00+00:00, run_after=2024-11-07 00:00:00+00:00
+[2024-11-07T00:56:07.626+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.163 seconds
+[2024-11-07T00:56:38.331+0000] {processor.py:186} INFO - Started process (PID=1412) to work on /opt/airflow/dags/etl.py
+[2024-11-07T00:56:38.342+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-07T00:56:38.344+0000] {logging_mixin.py:190} INFO - [2024-11-07T00:56:38.344+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-07T00:56:38.445+0000] {processor.py:925} INFO - DAG(s) 'api_inserir_dadosH' retrieved from /opt/airflow/dags/etl.py
+[2024-11-07T00:56:38.460+0000] {logging_mixin.py:190} INFO - [2024-11-07T00:56:38.460+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T00:56:38.479+0000] {logging_mixin.py:190} INFO - [2024-11-07T00:56:38.478+0000] {dag.py:4180} INFO - Setting next_dagrun for api_inserir_dadosH to 2024-11-06 00:00:00+00:00, run_after=2024-11-07 00:00:00+00:00
+[2024-11-07T00:56:38.495+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.168 seconds
+[2024-11-07T00:57:08.523+0000] {processor.py:186} INFO - Started process (PID=1477) to work on /opt/airflow/dags/etl.py
+[2024-11-07T00:57:08.524+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-07T00:57:08.525+0000] {logging_mixin.py:190} INFO - [2024-11-07T00:57:08.525+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-07T00:57:08.622+0000] {processor.py:925} INFO - DAG(s) 'api_inserir_dadosH' retrieved from /opt/airflow/dags/etl.py
+[2024-11-07T00:57:08.638+0000] {logging_mixin.py:190} INFO - [2024-11-07T00:57:08.638+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T00:57:08.658+0000] {logging_mixin.py:190} INFO - [2024-11-07T00:57:08.658+0000] {dag.py:4180} INFO - Setting next_dagrun for api_inserir_dadosH to 2024-11-06 00:00:00+00:00, run_after=2024-11-07 00:00:00+00:00
+[2024-11-07T00:57:08.683+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.165 seconds
+[2024-11-07T00:57:38.741+0000] {processor.py:186} INFO - Started process (PID=1540) to work on /opt/airflow/dags/etl.py
+[2024-11-07T00:57:38.752+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-07T00:57:38.754+0000] {logging_mixin.py:190} INFO - [2024-11-07T00:57:38.753+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-07T00:57:38.853+0000] {processor.py:925} INFO - DAG(s) 'api_inserir_dadosH' retrieved from /opt/airflow/dags/etl.py
+[2024-11-07T00:57:38.867+0000] {logging_mixin.py:190} INFO - [2024-11-07T00:57:38.866+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T00:57:38.886+0000] {logging_mixin.py:190} INFO - [2024-11-07T00:57:38.886+0000] {dag.py:4180} INFO - Setting next_dagrun for api_inserir_dadosH to 2024-11-06 00:00:00+00:00, run_after=2024-11-07 00:00:00+00:00
+[2024-11-07T00:57:38.900+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.164 seconds
+[2024-11-07T00:58:08.959+0000] {processor.py:186} INFO - Started process (PID=1605) to work on /opt/airflow/dags/etl.py
+[2024-11-07T00:58:08.959+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-07T00:58:08.961+0000] {logging_mixin.py:190} INFO - [2024-11-07T00:58:08.961+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-07T00:58:09.059+0000] {processor.py:925} INFO - DAG(s) 'api_inserir_dadosH' retrieved from /opt/airflow/dags/etl.py
+[2024-11-07T00:58:09.074+0000] {logging_mixin.py:190} INFO - [2024-11-07T00:58:09.074+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T00:58:09.093+0000] {logging_mixin.py:190} INFO - [2024-11-07T00:58:09.092+0000] {dag.py:4180} INFO - Setting next_dagrun for api_inserir_dadosH to 2024-11-06 00:00:00+00:00, run_after=2024-11-07 00:00:00+00:00
+[2024-11-07T00:58:09.107+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.153 seconds
+[2024-11-07T00:58:39.177+0000] {processor.py:186} INFO - Started process (PID=1668) to work on /opt/airflow/dags/etl.py
+[2024-11-07T00:58:39.178+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-07T00:58:39.179+0000] {logging_mixin.py:190} INFO - [2024-11-07T00:58:39.179+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-07T00:58:39.277+0000] {processor.py:925} INFO - DAG(s) 'api_inserir_dadosH' retrieved from /opt/airflow/dags/etl.py
+[2024-11-07T00:58:39.291+0000] {logging_mixin.py:190} INFO - [2024-11-07T00:58:39.291+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T00:58:39.311+0000] {logging_mixin.py:190} INFO - [2024-11-07T00:58:39.311+0000] {dag.py:4180} INFO - Setting next_dagrun for api_inserir_dadosH to 2024-11-06 00:00:00+00:00, run_after=2024-11-07 00:00:00+00:00
+[2024-11-07T00:58:39.325+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.153 seconds
+[2024-11-07T00:59:10.019+0000] {processor.py:186} INFO - Started process (PID=1738) to work on /opt/airflow/dags/etl.py
+[2024-11-07T00:59:10.030+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-07T00:59:10.031+0000] {logging_mixin.py:190} INFO - [2024-11-07T00:59:10.031+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-07T00:59:10.131+0000] {processor.py:925} INFO - DAG(s) 'api_inserir_dadosH' retrieved from /opt/airflow/dags/etl.py
+[2024-11-07T00:59:10.145+0000] {logging_mixin.py:190} INFO - [2024-11-07T00:59:10.145+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T00:59:10.166+0000] {logging_mixin.py:190} INFO - [2024-11-07T00:59:10.166+0000] {dag.py:4180} INFO - Setting next_dagrun for api_inserir_dadosH to 2024-11-06 00:00:00+00:00, run_after=2024-11-07 00:00:00+00:00
+[2024-11-07T00:59:10.182+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.168 seconds
+[2024-11-07T00:59:40.576+0000] {processor.py:186} INFO - Started process (PID=1802) to work on /opt/airflow/dags/etl.py
+[2024-11-07T00:59:40.576+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-07T00:59:40.578+0000] {logging_mixin.py:190} INFO - [2024-11-07T00:59:40.578+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-07T00:59:40.678+0000] {processor.py:925} INFO - DAG(s) 'api_inserir_dadosH' retrieved from /opt/airflow/dags/etl.py
+[2024-11-07T00:59:40.693+0000] {logging_mixin.py:190} INFO - [2024-11-07T00:59:40.693+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T00:59:40.713+0000] {logging_mixin.py:190} INFO - [2024-11-07T00:59:40.713+0000] {dag.py:4180} INFO - Setting next_dagrun for api_inserir_dadosH to 2024-11-06 00:00:00+00:00, run_after=2024-11-07 00:00:00+00:00
+[2024-11-07T00:59:40.728+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.157 seconds
+[2024-11-07T01:00:11.190+0000] {processor.py:186} INFO - Started process (PID=1866) to work on /opt/airflow/dags/etl.py
+[2024-11-07T01:00:11.201+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-07T01:00:11.204+0000] {logging_mixin.py:190} INFO - [2024-11-07T01:00:11.203+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-07T01:00:11.314+0000] {processor.py:925} INFO - DAG(s) 'api_inserir_dadosH' retrieved from /opt/airflow/dags/etl.py
+[2024-11-07T01:00:11.330+0000] {logging_mixin.py:190} INFO - [2024-11-07T01:00:11.330+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T01:00:11.351+0000] {logging_mixin.py:190} INFO - [2024-11-07T01:00:11.351+0000] {dag.py:4180} INFO - Setting next_dagrun for api_inserir_dadosH to 2024-11-06 00:00:00+00:00, run_after=2024-11-07 00:00:00+00:00
+[2024-11-07T01:00:11.368+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.184 seconds
+[2024-11-07T01:00:41.417+0000] {processor.py:186} INFO - Started process (PID=1931) to work on /opt/airflow/dags/etl.py
+[2024-11-07T01:00:41.417+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-07T01:00:41.419+0000] {logging_mixin.py:190} INFO - [2024-11-07T01:00:41.419+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-07T01:00:41.518+0000] {processor.py:925} INFO - DAG(s) 'api_inserir_dadosH' retrieved from /opt/airflow/dags/etl.py
+[2024-11-07T01:00:41.533+0000] {logging_mixin.py:190} INFO - [2024-11-07T01:00:41.533+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T01:00:41.552+0000] {logging_mixin.py:190} INFO - [2024-11-07T01:00:41.552+0000] {dag.py:4180} INFO - Setting next_dagrun for api_inserir_dadosH to 2024-11-06 00:00:00+00:00, run_after=2024-11-07 00:00:00+00:00
+[2024-11-07T01:00:41.566+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.154 seconds
+[2024-11-07T01:01:11.612+0000] {processor.py:186} INFO - Started process (PID=1994) to work on /opt/airflow/dags/etl.py
+[2024-11-07T01:01:11.624+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-07T01:01:11.626+0000] {logging_mixin.py:190} INFO - [2024-11-07T01:01:11.626+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-07T01:01:11.724+0000] {processor.py:925} INFO - DAG(s) 'api_inserir_dadosH' retrieved from /opt/airflow/dags/etl.py
+[2024-11-07T01:01:11.739+0000] {logging_mixin.py:190} INFO - [2024-11-07T01:01:11.739+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T01:01:11.760+0000] {logging_mixin.py:190} INFO - [2024-11-07T01:01:11.760+0000] {dag.py:4180} INFO - Setting next_dagrun for api_inserir_dadosH to 2024-11-06 00:00:00+00:00, run_after=2024-11-07 00:00:00+00:00
+[2024-11-07T01:01:11.774+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.166 seconds

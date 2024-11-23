@@ -1,0 +1,113 @@
+[2024-11-17T02:41:59.843+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-17T02:41:59.862+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: criar_tabelas.inserir_dados_indicadores manual__2024-11-17T02:40:28.959006+00:00 [queued]>
+[2024-11-17T02:41:59.870+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: criar_tabelas.inserir_dados_indicadores manual__2024-11-17T02:40:28.959006+00:00 [queued]>
+[2024-11-17T02:41:59.870+0000] {taskinstance.py:2866} INFO - Starting attempt 2 of 2
+[2024-11-17T02:41:59.881+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): inserir_dados_indicadores> on 2024-11-17 02:40:28.959006+00:00
+[2024-11-17T02:41:59.892+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=1211) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-11-17T02:41:59.893+0000] {standard_task_runner.py:72} INFO - Started process 1213 to run task
+[2024-11-17T02:41:59.894+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'criar_tabelas', 'inserir_dados_indicadores', 'manual__2024-11-17T02:40:28.959006+00:00', '--job-id', '148', '--raw', '--subdir', 'DAGS_FOLDER/etl.py', '--cfg-path', '/tmp/tmpi3bn8frh']
+[2024-11-17T02:41:59.895+0000] {standard_task_runner.py:105} INFO - Job 148: Subtask inserir_dados_indicadores
+[2024-11-17T02:41:59.940+0000] {task_command.py:467} INFO - Running <TaskInstance: criar_tabelas.inserir_dados_indicadores manual__2024-11-17T02:40:28.959006+00:00 [running]> on host bfeda1f9cf11
+[2024-11-17T02:42:00.210+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='criar_tabelas' AIRFLOW_CTX_TASK_ID='inserir_dados_indicadores' AIRFLOW_CTX_EXECUTION_DATE='2024-11-17T02:40:28.959006+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-11-17T02:40:28.959006+00:00'
+[2024-11-17T02:42:00.211+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-11-17T02:42:00.212+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-11-17T02:42:00.212+0000] {logging_mixin.py:190} INFO - Current task name:inserir_dados_indicadores state:running start_date:2024-11-17 02:41:59.862402+00:00
+[2024-11-17T02:42:00.212+0000] {logging_mixin.py:190} INFO - Dag name:criar_tabelas and current dag run status:running
+[2024-11-17T02:42:00.212+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-17T02:42:00.581+0000] {taskinstance.py:3311} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 417, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gabriel/workspace/airflow-docker/dags/etl.py", line 293, in inserir_dados_indicadores
+    conn = psycopg2.connect(
+           ^^^^^^^^
+NameError: name 'psycopg2' is not defined
+[2024-11-17T02:42:00.594+0000] {logging_mixin.py:190} INFO - Task instance in failure state
+[2024-11-17T02:42:00.594+0000] {logging_mixin.py:190} INFO - Task start:2024-11-17 02:41:59.862402+00:00 end:2024-11-17 02:42:00.593947+00:00 duration:0.731545
+[2024-11-17T02:42:00.595+0000] {logging_mixin.py:190} INFO - Task:<Task(PythonOperator): inserir_dados_indicadores> dag:<DAG: criar_tabelas> dagrun:<DagRun criar_tabelas @ 2024-11-17 02:40:28.959006+00:00: manual__2024-11-17T02:40:28.959006+00:00, state:running, queued_at: 2024-11-17 02:40:28.974093+00:00. externally triggered: True>
+[2024-11-17T02:42:00.595+0000] {logging_mixin.py:190} INFO - Failure caused by name 'psycopg2' is not defined
+[2024-11-17T02:42:00.595+0000] {taskinstance.py:1225} INFO - Marking task as FAILED. dag_id=criar_tabelas, task_id=inserir_dados_indicadores, run_id=manual__2024-11-17T02:40:28.959006+00:00, execution_date=20241117T024028, start_date=20241117T024159, end_date=20241117T024200
+[2024-11-17T02:42:00.605+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-17T02:42:00.605+0000] {standard_task_runner.py:124} ERROR - Failed to execute job 148 for task inserir_dados_indicadores (name 'psycopg2' is not defined; 1213)
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3005, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3159, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3183, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 417, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gabriel/workspace/airflow-docker/dags/etl.py", line 293, in inserir_dados_indicadores
+    conn = psycopg2.connect(
+           ^^^^^^^^
+NameError: name 'psycopg2' is not defined
+[2024-11-17T02:42:00.630+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2024-11-17T02:42:00.647+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-11-17T02:42:00.648+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

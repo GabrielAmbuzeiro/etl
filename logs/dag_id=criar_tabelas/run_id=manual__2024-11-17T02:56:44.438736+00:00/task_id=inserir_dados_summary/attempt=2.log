@@ -1,0 +1,118 @@
+[2024-11-17T02:58:07.673+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-17T02:58:07.689+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: criar_tabelas.inserir_dados_summary manual__2024-11-17T02:56:44.438736+00:00 [queued]>
+[2024-11-17T02:58:07.698+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: criar_tabelas.inserir_dados_summary manual__2024-11-17T02:56:44.438736+00:00 [queued]>
+[2024-11-17T02:58:07.698+0000] {taskinstance.py:2866} INFO - Starting attempt 2 of 2
+[2024-11-17T02:58:07.709+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): inserir_dados_summary> on 2024-11-17 02:56:44.438736+00:00
+[2024-11-17T02:58:07.720+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=347) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-11-17T02:58:07.721+0000] {standard_task_runner.py:72} INFO - Started process 349 to run task
+[2024-11-17T02:58:07.722+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'criar_tabelas', 'inserir_dados_summary', 'manual__2024-11-17T02:56:44.438736+00:00', '--job-id', '195', '--raw', '--subdir', 'DAGS_FOLDER/etl.py', '--cfg-path', '/tmp/tmp9qvf4f7y']
+[2024-11-17T02:58:07.723+0000] {standard_task_runner.py:105} INFO - Job 195: Subtask inserir_dados_summary
+[2024-11-17T02:58:07.766+0000] {task_command.py:467} INFO - Running <TaskInstance: criar_tabelas.inserir_dados_summary manual__2024-11-17T02:56:44.438736+00:00 [running]> on host bfeda1f9cf11
+[2024-11-17T02:58:08.044+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='criar_tabelas' AIRFLOW_CTX_TASK_ID='inserir_dados_summary' AIRFLOW_CTX_EXECUTION_DATE='2024-11-17T02:56:44.438736+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-11-17T02:56:44.438736+00:00'
+[2024-11-17T02:58:08.045+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-11-17T02:58:08.045+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-11-17T02:58:08.045+0000] {logging_mixin.py:190} INFO - Current task name:inserir_dados_summary state:running start_date:2024-11-17 02:58:07.689745+00:00
+[2024-11-17T02:58:08.045+0000] {logging_mixin.py:190} INFO - Dag name:criar_tabelas and current dag run status:running
+[2024-11-17T02:58:08.045+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-17T02:58:08.139+0000] {taskinstance.py:3311} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 417, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gabriel/workspace/airflow-docker/dags/etl.py", line 418, in inserir_dados_summary
+    cursor.execute(insert_query, (
+psycopg2.errors.NotNullViolation: null value in column "id" of relation "summaryprofile" violates not-null constraint
+DETAIL:  Failing row contains (null, Avenida Henrique Valadares, 28, 19th floor, Rio De Janeiro, RJ, 20241-030, Brazil, https://petrobras.com.br, Oil & Gas Integrated, oil-gas-integrated, Oil & Gas Integrated, Energy, energy, Energy, Petróleo Brasileiro S.A. - Petrobras explores, produces, and se...).
+
+[2024-11-17T02:58:08.150+0000] {logging_mixin.py:190} INFO - Task instance in failure state
+[2024-11-17T02:58:08.150+0000] {logging_mixin.py:190} INFO - Task start:2024-11-17 02:58:07.689745+00:00 end:2024-11-17 02:58:08.149841+00:00 duration:0.460096
+[2024-11-17T02:58:08.150+0000] {logging_mixin.py:190} INFO - Task:<Task(PythonOperator): inserir_dados_summary> dag:<DAG: criar_tabelas> dagrun:<DagRun criar_tabelas @ 2024-11-17 02:56:44.438736+00:00: manual__2024-11-17T02:56:44.438736+00:00, state:running, queued_at: 2024-11-17 02:56:44.449449+00:00. externally triggered: True>
+[2024-11-17T02:58:08.151+0000] {logging_mixin.py:190} INFO - Failure caused by null value in column "id" of relation "summaryprofile" violates not-null constraint
+DETAIL:  Failing row contains (null, Avenida Henrique Valadares, 28, 19th floor, Rio De Janeiro, RJ, 20241-030, Brazil, https://petrobras.com.br, Oil & Gas Integrated, oil-gas-integrated, Oil & Gas Integrated, Energy, energy, Energy, Petróleo Brasileiro S.A. - Petrobras explores, produces, and se...).
+[2024-11-17T02:58:08.151+0000] {taskinstance.py:1225} INFO - Marking task as FAILED. dag_id=criar_tabelas, task_id=inserir_dados_summary, run_id=manual__2024-11-17T02:56:44.438736+00:00, execution_date=20241117T025644, start_date=20241117T025807, end_date=20241117T025808
+[2024-11-17T02:58:08.161+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-17T02:58:08.161+0000] {standard_task_runner.py:124} ERROR - Failed to execute job 195 for task inserir_dados_summary (null value in column "id" of relation "summaryprofile" violates not-null constraint
+DETAIL:  Failing row contains (null, Avenida Henrique Valadares, 28, 19th floor, Rio De Janeiro, RJ, 20241-030, Brazil, https://petrobras.com.br, Oil & Gas Integrated, oil-gas-integrated, Oil & Gas Integrated, Energy, energy, Energy, Petróleo Brasileiro S.A. - Petrobras explores, produces, and se...).
+; 349)
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3005, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3159, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3183, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 417, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gabriel/workspace/airflow-docker/dags/etl.py", line 418, in inserir_dados_summary
+    cursor.execute(insert_query, (
+psycopg2.errors.NotNullViolation: null value in column "id" of relation "summaryprofile" violates not-null constraint
+DETAIL:  Failing row contains (null, Avenida Henrique Valadares, 28, 19th floor, Rio De Janeiro, RJ, 20241-030, Brazil, https://petrobras.com.br, Oil & Gas Integrated, oil-gas-integrated, Oil & Gas Integrated, Energy, energy, Energy, Petróleo Brasileiro S.A. - Petrobras explores, produces, and se...).
+
+[2024-11-17T02:58:08.216+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2024-11-17T02:58:08.238+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-11-17T02:58:08.240+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

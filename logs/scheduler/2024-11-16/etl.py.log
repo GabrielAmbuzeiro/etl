@@ -1,0 +1,321 @@
+[2024-11-16T21:42:05.564+0000] {processor.py:186} INFO - Started process (PID=43) to work on /opt/airflow/dags/etl.py
+[2024-11-16T21:42:05.565+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T21:42:05.567+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:42:05.567+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T21:42:05.603+0000] {processor.py:925} INFO - DAG(s) 'criar_tabelas' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T21:42:05.819+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:42:05.819+0000] {override.py:1911} INFO - Created Permission View: can edit on DAG:criar_tabelas
+[2024-11-16T21:42:05.827+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:42:05.827+0000] {override.py:1911} INFO - Created Permission View: can read on DAG:criar_tabelas
+[2024-11-16T21:42:05.833+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:42:05.832+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG:criar_tabelas
+[2024-11-16T21:42:05.840+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:42:05.839+0000] {override.py:1911} INFO - Created Permission View: can create on DAG Run:criar_tabelas
+[2024-11-16T21:42:05.848+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:42:05.848+0000] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:criar_tabelas
+[2024-11-16T21:42:05.856+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:42:05.856+0000] {override.py:1911} INFO - Created Permission View: can read on DAG Run:criar_tabelas
+[2024-11-16T21:42:05.863+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:42:05.863+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:criar_tabelas
+[2024-11-16T21:42:05.864+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:42:05.864+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T21:42:05.876+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:42:05.876+0000] {dag.py:3262} INFO - Creating ORM DAG for criar_tabelas
+[2024-11-16T21:42:05.877+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:42:05.877+0000] {dag.py:4180} INFO - Setting next_dagrun for criar_tabelas to None, run_after=None
+[2024-11-16T21:42:05.893+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.334 seconds
+[2024-11-16T21:42:36.228+0000] {processor.py:186} INFO - Started process (PID=108) to work on /opt/airflow/dags/etl.py
+[2024-11-16T21:42:36.229+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T21:42:36.232+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:42:36.232+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T21:42:36.245+0000] {processor.py:925} INFO - DAG(s) 'criar_tabelas' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T21:42:36.279+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:42:36.279+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T21:42:36.303+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:42:36.303+0000] {dag.py:4180} INFO - Setting next_dagrun for criar_tabelas to None, run_after=None
+[2024-11-16T21:42:36.333+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.113 seconds
+[2024-11-16T21:43:06.400+0000] {processor.py:186} INFO - Started process (PID=173) to work on /opt/airflow/dags/etl.py
+[2024-11-16T21:43:06.411+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T21:43:06.413+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:43:06.413+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T21:43:06.425+0000] {processor.py:925} INFO - DAG(s) 'criar_tabelas' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T21:43:06.456+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:43:06.455+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T21:43:06.475+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:43:06.474+0000] {dag.py:4180} INFO - Setting next_dagrun for criar_tabelas to None, run_after=None
+[2024-11-16T21:43:06.499+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.107 seconds
+[2024-11-16T21:43:37.213+0000] {processor.py:186} INFO - Started process (PID=238) to work on /opt/airflow/dags/etl.py
+[2024-11-16T21:43:37.215+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T21:43:37.218+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:43:37.217+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T21:43:37.233+0000] {processor.py:925} INFO - DAG(s) 'criar_tabelas' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T21:43:37.264+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:43:37.264+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T21:43:37.283+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:43:37.283+0000] {dag.py:4180} INFO - Setting next_dagrun for criar_tabelas to None, run_after=None
+[2024-11-16T21:43:37.307+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.102 seconds
+[2024-11-16T21:44:07.563+0000] {processor.py:186} INFO - Started process (PID=303) to work on /opt/airflow/dags/etl.py
+[2024-11-16T21:44:07.564+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T21:44:07.567+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:44:07.567+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T21:44:07.580+0000] {processor.py:925} INFO - DAG(s) 'criar_tabelas' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T21:44:07.608+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:44:07.608+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T21:44:07.625+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:44:07.625+0000] {dag.py:4180} INFO - Setting next_dagrun for criar_tabelas to None, run_after=None
+[2024-11-16T21:44:07.645+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.089 seconds
+[2024-11-16T21:44:37.887+0000] {processor.py:186} INFO - Started process (PID=368) to work on /opt/airflow/dags/etl.py
+[2024-11-16T21:44:37.889+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T21:44:37.902+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:44:37.901+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T21:44:37.931+0000] {processor.py:925} INFO - DAG(s) 'criar_tabelas' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T21:44:37.975+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:44:37.974+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T21:44:38.015+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:44:38.014+0000] {dag.py:4180} INFO - Setting next_dagrun for criar_tabelas to None, run_after=None
+[2024-11-16T21:44:38.046+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.174 seconds
+[2024-11-16T21:45:08.245+0000] {processor.py:186} INFO - Started process (PID=437) to work on /opt/airflow/dags/etl.py
+[2024-11-16T21:45:08.246+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T21:45:08.250+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:45:08.249+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T21:45:08.266+0000] {processor.py:925} INFO - DAG(s) 'criar_tabelas' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T21:45:08.304+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:45:08.304+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T21:45:08.337+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:45:08.337+0000] {dag.py:4180} INFO - Setting next_dagrun for criar_tabelas to None, run_after=None
+[2024-11-16T21:45:08.370+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.135 seconds
+[2024-11-16T21:45:38.957+0000] {processor.py:186} INFO - Started process (PID=502) to work on /opt/airflow/dags/etl.py
+[2024-11-16T21:45:38.958+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T21:45:38.961+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:45:38.961+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T21:45:38.974+0000] {processor.py:925} INFO - DAG(s) 'criar_tabelas' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T21:45:39.005+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:45:39.005+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T21:45:39.025+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:45:39.024+0000] {dag.py:4180} INFO - Setting next_dagrun for criar_tabelas to None, run_after=None
+[2024-11-16T21:45:39.049+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.100 seconds
+[2024-11-16T21:46:09.117+0000] {processor.py:186} INFO - Started process (PID=567) to work on /opt/airflow/dags/etl.py
+[2024-11-16T21:46:09.118+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T21:46:09.122+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:46:09.121+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T21:46:09.134+0000] {processor.py:925} INFO - DAG(s) 'criar_tabelas' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T21:46:09.161+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:46:09.161+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T21:46:09.179+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:46:09.179+0000] {dag.py:4180} INFO - Setting next_dagrun for criar_tabelas to None, run_after=None
+[2024-11-16T21:46:09.199+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.089 seconds
+[2024-11-16T21:46:39.815+0000] {processor.py:186} INFO - Started process (PID=632) to work on /opt/airflow/dags/etl.py
+[2024-11-16T21:46:39.817+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T21:46:39.821+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:46:39.820+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T21:46:39.837+0000] {processor.py:925} INFO - DAG(s) 'criar_tabelas' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T21:46:39.867+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:46:39.867+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T21:46:39.885+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:46:39.885+0000] {dag.py:4180} INFO - Setting next_dagrun for criar_tabelas to None, run_after=None
+[2024-11-16T21:46:39.906+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.105 seconds
+[2024-11-16T21:47:10.092+0000] {processor.py:186} INFO - Started process (PID=697) to work on /opt/airflow/dags/etl.py
+[2024-11-16T21:47:10.094+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T21:47:10.099+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:47:10.098+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T21:47:10.118+0000] {processor.py:925} INFO - DAG(s) 'criar_tabelas' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T21:47:10.166+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:47:10.165+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T21:47:10.187+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:47:10.186+0000] {dag.py:4180} INFO - Setting next_dagrun for criar_tabelas to None, run_after=None
+[2024-11-16T21:47:10.215+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.133 seconds
+[2024-11-16T21:47:40.657+0000] {processor.py:186} INFO - Started process (PID=762) to work on /opt/airflow/dags/etl.py
+[2024-11-16T21:47:40.658+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T21:47:40.662+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:47:40.661+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T21:47:40.679+0000] {processor.py:925} INFO - DAG(s) 'criar_tabelas' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T21:47:40.711+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:47:40.710+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T21:47:40.732+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:47:40.731+0000] {dag.py:4180} INFO - Setting next_dagrun for criar_tabelas to None, run_after=None
+[2024-11-16T21:47:40.759+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.112 seconds
+[2024-11-16T21:48:11.399+0000] {processor.py:186} INFO - Started process (PID=827) to work on /opt/airflow/dags/etl.py
+[2024-11-16T21:48:11.400+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T21:48:11.403+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:48:11.403+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T21:48:11.422+0000] {processor.py:925} INFO - DAG(s) 'criar_tabelas' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T21:48:11.524+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:48:11.524+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T21:48:11.543+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:48:11.543+0000] {dag.py:4180} INFO - Setting next_dagrun for criar_tabelas to None, run_after=None
+[2024-11-16T21:48:11.568+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.180 seconds
+[2024-11-16T21:48:37.696+0000] {processor.py:186} INFO - Started process (PID=892) to work on /opt/airflow/dags/etl.py
+[2024-11-16T21:48:37.697+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T21:48:37.701+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:48:37.700+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T21:48:37.728+0000] {processor.py:925} INFO - DAG(s) 'criar_tabelas' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T21:48:37.779+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:48:37.779+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T21:48:37.807+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:48:37.806+0000] {dag.py:4180} INFO - Setting next_dagrun for criar_tabelas to None, run_after=None
+[2024-11-16T21:48:37.844+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.160 seconds
+[2024-11-16T21:49:08.753+0000] {processor.py:186} INFO - Started process (PID=961) to work on /opt/airflow/dags/etl.py
+[2024-11-16T21:49:08.754+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T21:49:08.757+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:49:08.756+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T21:49:08.784+0000] {processor.py:925} INFO - DAG(s) 'criar_tabelas' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T21:49:08.805+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:49:08.805+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T21:49:08.821+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:49:08.821+0000] {dag.py:4180} INFO - Setting next_dagrun for criar_tabelas to None, run_after=None
+[2024-11-16T21:49:08.837+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.090 seconds
+[2024-11-16T21:49:39.798+0000] {processor.py:186} INFO - Started process (PID=1026) to work on /opt/airflow/dags/etl.py
+[2024-11-16T21:49:39.801+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T21:49:39.806+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:49:39.805+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T21:49:39.828+0000] {processor.py:925} INFO - DAG(s) 'criar_tabelas' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T21:49:39.875+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:49:39.875+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T21:49:39.899+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:49:39.899+0000] {dag.py:4180} INFO - Setting next_dagrun for criar_tabelas to None, run_after=None
+[2024-11-16T21:49:39.924+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.143 seconds
+[2024-11-16T21:50:10.340+0000] {processor.py:186} INFO - Started process (PID=1091) to work on /opt/airflow/dags/etl.py
+[2024-11-16T21:50:10.341+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T21:50:10.344+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:50:10.344+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T21:50:10.355+0000] {processor.py:925} INFO - DAG(s) 'criar_tabelas' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T21:50:10.382+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:50:10.382+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T21:50:10.400+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:50:10.400+0000] {dag.py:4180} INFO - Setting next_dagrun for criar_tabelas to None, run_after=None
+[2024-11-16T21:50:10.421+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.089 seconds
+[2024-11-16T21:50:34.922+0000] {processor.py:186} INFO - Started process (PID=1156) to work on /opt/airflow/dags/etl.py
+[2024-11-16T21:50:34.923+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T21:50:34.926+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:50:34.925+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T21:50:34.931+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:50:34.929+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl.py", line 354
+    )
+    ^
+SyntaxError: unmatched ')'
+[2024-11-16T21:50:34.932+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T21:50:34.955+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.039 seconds
+[2024-11-16T21:50:38.985+0000] {processor.py:186} INFO - Started process (PID=1157) to work on /opt/airflow/dags/etl.py
+[2024-11-16T21:50:38.987+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T21:50:38.990+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:50:38.990+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T21:50:39.000+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:50:38.997+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl.py", line 354
+    )
+    ^
+SyntaxError: unmatched ')'
+[2024-11-16T21:50:39.001+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T21:50:39.035+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.061 seconds
+[2024-11-16T21:50:40.031+0000] {processor.py:186} INFO - Started process (PID=1158) to work on /opt/airflow/dags/etl.py
+[2024-11-16T21:50:40.032+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T21:50:40.036+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:50:40.036+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T21:50:40.042+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:50:40.041+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl.py", line 354
+    )
+    ^
+SyntaxError: unmatched ')'
+[2024-11-16T21:50:40.043+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T21:50:40.070+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.047 seconds
+[2024-11-16T21:51:10.281+0000] {processor.py:186} INFO - Started process (PID=1223) to work on /opt/airflow/dags/etl.py
+[2024-11-16T21:51:10.282+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T21:51:10.285+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:51:10.285+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T21:51:10.293+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:51:10.291+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl.py", line 354
+    )
+    ^
+SyntaxError: unmatched ')'
+[2024-11-16T21:51:10.293+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T21:51:10.323+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.051 seconds
+[2024-11-16T21:51:24.664+0000] {processor.py:186} INFO - Started process (PID=1269) to work on /opt/airflow/dags/etl.py
+[2024-11-16T21:51:24.666+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T21:51:24.669+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:51:24.668+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T21:51:24.683+0000] {processor.py:925} INFO - DAG(s) 'criar_tabelas' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T21:51:24.867+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:51:24.866+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T21:51:24.882+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:51:24.881+0000] {dag.py:4180} INFO - Setting next_dagrun for criar_tabelas to None, run_after=None
+[2024-11-16T21:51:24.907+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.251 seconds
+[2024-11-16T21:51:55.398+0000] {processor.py:186} INFO - Started process (PID=1338) to work on /opt/airflow/dags/etl.py
+[2024-11-16T21:51:55.399+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T21:51:55.402+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:51:55.401+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T21:51:55.412+0000] {processor.py:925} INFO - DAG(s) 'criar_tabelas' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T21:51:55.437+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:51:55.437+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T21:51:55.454+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:51:55.454+0000] {dag.py:4180} INFO - Setting next_dagrun for criar_tabelas to None, run_after=None
+[2024-11-16T21:51:55.474+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.083 seconds
+[2024-11-16T21:52:18.012+0000] {processor.py:186} INFO - Started process (PID=1373) to work on /opt/airflow/dags/etl.py
+[2024-11-16T21:52:18.014+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T21:52:18.017+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:52:18.016+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T21:52:18.030+0000] {processor.py:925} INFO - DAG(s) 'criar_tabelas' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T21:52:18.218+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:52:18.218+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T21:52:18.235+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:52:18.235+0000] {dag.py:4180} INFO - Setting next_dagrun for criar_tabelas to None, run_after=None
+[2024-11-16T21:52:18.265+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.260 seconds
+[2024-11-16T21:52:48.644+0000] {processor.py:186} INFO - Started process (PID=1437) to work on /opt/airflow/dags/etl.py
+[2024-11-16T21:52:48.645+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T21:52:48.648+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:52:48.648+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T21:52:48.660+0000] {processor.py:925} INFO - DAG(s) 'criar_tabelas' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T21:52:48.692+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:52:48.692+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T21:52:48.711+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:52:48.711+0000] {dag.py:4180} INFO - Setting next_dagrun for criar_tabelas to None, run_after=None
+[2024-11-16T21:52:48.735+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.099 seconds
+[2024-11-16T21:53:18.887+0000] {processor.py:186} INFO - Started process (PID=1502) to work on /opt/airflow/dags/etl.py
+[2024-11-16T21:53:18.888+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T21:53:18.891+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:53:18.891+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T21:53:18.901+0000] {processor.py:925} INFO - DAG(s) 'criar_tabelas' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T21:53:18.927+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:53:18.927+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T21:53:18.945+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:53:18.944+0000] {dag.py:4180} INFO - Setting next_dagrun for criar_tabelas to None, run_after=None
+[2024-11-16T21:53:18.971+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.090 seconds
+[2024-11-16T21:56:20.611+0000] {processor.py:186} INFO - Started process (PID=43) to work on /opt/airflow/dags/etl.py
+[2024-11-16T21:56:20.612+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T21:56:20.614+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:56:20.614+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T21:56:20.629+0000] {processor.py:925} INFO - DAG(s) 'criar_tabelas' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T21:56:20.672+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:56:20.672+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T21:56:20.687+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:56:20.687+0000] {dag.py:4180} INFO - Setting next_dagrun for criar_tabelas to None, run_after=None
+[2024-11-16T21:56:20.704+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.099 seconds
+[2024-11-16T21:56:50.946+0000] {processor.py:186} INFO - Started process (PID=108) to work on /opt/airflow/dags/etl.py
+[2024-11-16T21:56:50.947+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T21:56:50.948+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:56:50.948+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T21:56:50.956+0000] {processor.py:925} INFO - DAG(s) 'criar_tabelas' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T21:56:50.976+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:56:50.976+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T21:56:50.988+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:56:50.988+0000] {dag.py:4180} INFO - Setting next_dagrun for criar_tabelas to None, run_after=None
+[2024-11-16T21:56:51.003+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.062 seconds
+[2024-11-16T21:57:21.223+0000] {processor.py:186} INFO - Started process (PID=173) to work on /opt/airflow/dags/etl.py
+[2024-11-16T21:57:21.225+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T21:57:21.228+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:57:21.227+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T21:57:21.239+0000] {processor.py:925} INFO - DAG(s) 'criar_tabelas' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T21:57:21.267+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:57:21.266+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T21:57:21.283+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:57:21.283+0000] {dag.py:4180} INFO - Setting next_dagrun for criar_tabelas to None, run_after=None
+[2024-11-16T21:57:21.307+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.090 seconds
+[2024-11-16T21:57:51.458+0000] {processor.py:186} INFO - Started process (PID=238) to work on /opt/airflow/dags/etl.py
+[2024-11-16T21:57:51.469+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T21:57:51.472+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:57:51.472+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T21:57:51.482+0000] {processor.py:925} INFO - DAG(s) 'criar_tabelas' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T21:57:51.506+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:57:51.506+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T21:57:51.519+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:57:51.519+0000] {dag.py:4180} INFO - Setting next_dagrun for criar_tabelas to None, run_after=None
+[2024-11-16T21:57:51.538+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.086 seconds
+[2024-11-16T21:58:21.650+0000] {processor.py:186} INFO - Started process (PID=303) to work on /opt/airflow/dags/etl.py
+[2024-11-16T21:58:21.651+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T21:58:21.654+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:58:21.653+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T21:58:21.663+0000] {processor.py:925} INFO - DAG(s) 'criar_tabelas' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T21:58:21.687+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:58:21.687+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T21:58:21.701+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:58:21.701+0000] {dag.py:4180} INFO - Setting next_dagrun for criar_tabelas to None, run_after=None
+[2024-11-16T21:58:21.720+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.076 seconds
+[2024-11-16T21:58:51.478+0000] {processor.py:186} INFO - Started process (PID=368) to work on /opt/airflow/dags/etl.py
+[2024-11-16T21:58:51.479+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T21:58:51.481+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:58:51.480+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T21:58:51.489+0000] {processor.py:925} INFO - DAG(s) 'criar_tabelas' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T21:58:51.508+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:58:51.508+0000] {taskinstance.py:3313} ERROR - {'DAG Id': 'criar_tabelas', 'Task Id': 'create_table_query_summary', 'Run Id': 'manual__2024-11-16T21:53:39.941631+00:00', 'Hostname': '7766afd0bc11', 'External Executor Id': 'aeb2295e-5657-4674-88f4-f085e90abb46'}
+[2024-11-16T21:58:51.530+0000] {logging_mixin.py:190} INFO - Task instance in failure state
+[2024-11-16T21:58:51.530+0000] {logging_mixin.py:190} INFO - Task start:2024-11-16 21:53:44.351366+00:00 end:2024-11-16 21:58:51.529755+00:00 duration:307.178389
+[2024-11-16T21:58:51.531+0000] {logging_mixin.py:190} INFO - Task:<Task(PostgresOperator): create_table_query_summary> dag:<DAG: criar_tabelas> dagrun:<DagRun criar_tabelas @ 2024-11-16 21:53:39.941631+00:00: manual__2024-11-16T21:53:39.941631+00:00, state:running, queued_at: 2024-11-16 21:53:39.956897+00:00. externally triggered: True>
+[2024-11-16T21:58:51.531+0000] {logging_mixin.py:190} INFO - Failure caused by {'DAG Id': 'criar_tabelas', 'Task Id': 'create_table_query_summary', 'Run Id': 'manual__2024-11-16T21:53:39.941631+00:00', 'Hostname': '7766afd0bc11', 'External Executor Id': 'aeb2295e-5657-4674-88f4-f085e90abb46'}
+[2024-11-16T21:58:51.531+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:58:51.531+0000] {taskinstance.py:1225} INFO - Marking task as UP_FOR_RETRY. dag_id=criar_tabelas, task_id=create_table_query_summary, run_id=manual__2024-11-16T21:53:39.941631+00:00, execution_date=20241116T215339, start_date=20241116T215344, end_date=20241116T215851
+[2024-11-16T21:58:51.545+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:58:51.544+0000] {processor.py:876} INFO - Executed callback for <TaskInstance: criar_tabelas.create_table_query_summary manual__2024-11-16T21:53:39.941631+00:00 [up_for_retry]> in state up_for_retry
+[2024-11-16T21:58:51.558+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:58:51.557+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T21:58:51.569+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:58:51.569+0000] {dag.py:4180} INFO - Setting next_dagrun for criar_tabelas to None, run_after=None
+[2024-11-16T21:58:51.583+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.111 seconds
+[2024-11-16T21:59:01.543+0000] {processor.py:186} INFO - Started process (PID=432) to work on /opt/airflow/dags/etl.py
+[2024-11-16T21:59:01.544+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T21:59:01.546+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:59:01.546+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T21:59:01.554+0000] {processor.py:925} INFO - DAG(s) 'criar_tabelas' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T21:59:01.574+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:59:01.574+0000] {taskinstance.py:3313} ERROR - {'DAG Id': 'criar_tabelas', 'Task Id': 'inserir_dados_historico', 'Run Id': 'manual__2024-11-16T21:53:39.941631+00:00', 'Hostname': '7766afd0bc11', 'External Executor Id': 'e4192252-88a8-4c20-93dc-1409227ac144'}
+[2024-11-16T21:59:01.596+0000] {logging_mixin.py:190} INFO - Task instance in failure state
+[2024-11-16T21:59:01.596+0000] {logging_mixin.py:190} INFO - Task start:2024-11-16 21:53:44.350877+00:00 end:2024-11-16 21:59:01.595931+00:00 duration:317.245054
+[2024-11-16T21:59:01.596+0000] {logging_mixin.py:190} INFO - Task:<Task(PythonOperator): inserir_dados_historico> dag:<DAG: criar_tabelas> dagrun:<DagRun criar_tabelas @ 2024-11-16 21:53:39.941631+00:00: manual__2024-11-16T21:53:39.941631+00:00, state:running, queued_at: 2024-11-16 21:53:39.956897+00:00. externally triggered: True>
+[2024-11-16T21:59:01.597+0000] {logging_mixin.py:190} INFO - Failure caused by {'DAG Id': 'criar_tabelas', 'Task Id': 'inserir_dados_historico', 'Run Id': 'manual__2024-11-16T21:53:39.941631+00:00', 'Hostname': '7766afd0bc11', 'External Executor Id': 'e4192252-88a8-4c20-93dc-1409227ac144'}
+[2024-11-16T21:59:01.597+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:59:01.597+0000] {taskinstance.py:1225} INFO - Marking task as UP_FOR_RETRY. dag_id=criar_tabelas, task_id=inserir_dados_historico, run_id=manual__2024-11-16T21:53:39.941631+00:00, execution_date=20241116T215339, start_date=20241116T215344, end_date=20241116T215901
+[2024-11-16T21:59:01.610+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:59:01.610+0000] {processor.py:876} INFO - Executed callback for <TaskInstance: criar_tabelas.inserir_dados_historico manual__2024-11-16T21:53:39.941631+00:00 [up_for_retry]> in state up_for_retry
+[2024-11-16T21:59:01.613+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:59:01.613+0000] {taskinstance.py:3313} ERROR - {'DAG Id': 'criar_tabelas', 'Task Id': 'inserir_dados_historico', 'Run Id': 'manual__2024-11-16T21:53:39.941631+00:00', 'Hostname': '7766afd0bc11', 'External Executor Id': 'e4192252-88a8-4c20-93dc-1409227ac144'}
+[2024-11-16T21:59:01.620+0000] {logging_mixin.py:190} INFO - Task instance in failure state
+[2024-11-16T21:59:01.620+0000] {logging_mixin.py:190} INFO - Task start:2024-11-16 21:53:44.350877+00:00 end:2024-11-16 21:59:01.616500+00:00 duration:317.265623
+[2024-11-16T21:59:01.621+0000] {logging_mixin.py:190} INFO - Task:<Task(PythonOperator): inserir_dados_historico> dag:<DAG: criar_tabelas> dagrun:<DagRun criar_tabelas @ 2024-11-16 21:53:39.941631+00:00: manual__2024-11-16T21:53:39.941631+00:00, state:running, queued_at: 2024-11-16 21:53:39.956897+00:00. externally triggered: True>
+[2024-11-16T21:59:01.621+0000] {logging_mixin.py:190} INFO - Failure caused by {'DAG Id': 'criar_tabelas', 'Task Id': 'inserir_dados_historico', 'Run Id': 'manual__2024-11-16T21:53:39.941631+00:00', 'Hostname': '7766afd0bc11', 'External Executor Id': 'e4192252-88a8-4c20-93dc-1409227ac144'}
+[2024-11-16T21:59:01.621+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:59:01.621+0000] {taskinstance.py:1225} INFO - Marking task as UP_FOR_RETRY. dag_id=criar_tabelas, task_id=inserir_dados_historico, run_id=manual__2024-11-16T21:53:39.941631+00:00, execution_date=20241116T215339, start_date=20241116T215344, end_date=20241116T215901
+[2024-11-16T21:59:01.625+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:59:01.625+0000] {processor.py:876} INFO - Executed callback for <TaskInstance: criar_tabelas.inserir_dados_historico manual__2024-11-16T21:53:39.941631+00:00 [up_for_retry]> in state up_for_retry
+[2024-11-16T21:59:01.637+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:59:01.637+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T21:59:01.651+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:59:01.650+0000] {dag.py:4180} INFO - Setting next_dagrun for criar_tabelas to None, run_after=None
+[2024-11-16T21:59:01.666+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.128 seconds
+[2024-11-16T21:59:31.949+0000] {processor.py:186} INFO - Started process (PID=497) to work on /opt/airflow/dags/etl.py
+[2024-11-16T21:59:31.961+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T21:59:31.963+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:59:31.963+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T21:59:31.972+0000] {processor.py:925} INFO - DAG(s) 'criar_tabelas' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T21:59:31.995+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:59:31.994+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T21:59:32.009+0000] {logging_mixin.py:190} INFO - [2024-11-16T21:59:32.009+0000] {dag.py:4180} INFO - Setting next_dagrun for criar_tabelas to None, run_after=None
+[2024-11-16T21:59:32.027+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.084 seconds
+[2024-11-16T22:00:02.111+0000] {processor.py:186} INFO - Started process (PID=562) to work on /opt/airflow/dags/etl.py
+[2024-11-16T22:00:02.111+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T22:00:02.113+0000] {logging_mixin.py:190} INFO - [2024-11-16T22:00:02.113+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T22:00:02.121+0000] {processor.py:925} INFO - DAG(s) 'criar_tabelas' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T22:00:02.142+0000] {logging_mixin.py:190} INFO - [2024-11-16T22:00:02.141+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T22:00:02.154+0000] {logging_mixin.py:190} INFO - [2024-11-16T22:00:02.154+0000] {dag.py:4180} INFO - Setting next_dagrun for criar_tabelas to None, run_after=None
+[2024-11-16T22:00:02.170+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.064 seconds
+[2024-11-16T22:00:32.249+0000] {processor.py:186} INFO - Started process (PID=625) to work on /opt/airflow/dags/etl.py
+[2024-11-16T22:00:32.261+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T22:00:32.265+0000] {logging_mixin.py:190} INFO - [2024-11-16T22:00:32.265+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T22:00:32.275+0000] {processor.py:925} INFO - DAG(s) 'criar_tabelas' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T22:00:32.300+0000] {logging_mixin.py:190} INFO - [2024-11-16T22:00:32.299+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T22:00:32.314+0000] {logging_mixin.py:190} INFO - [2024-11-16T22:00:32.313+0000] {dag.py:4180} INFO - Setting next_dagrun for criar_tabelas to None, run_after=None
+[2024-11-16T22:00:32.332+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.090 seconds
